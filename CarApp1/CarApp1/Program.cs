@@ -25,13 +25,14 @@ namespace CarApp1
             Car nascar = new Car("Toyota");
           //  Console.WriteLine("FuzzyDices = " + nascar.FuzzyDice);
             //Console.WriteLine("Model = " + nascar.Model);
-            nascar.Speed = 200;
+            
             nascar.Color = "White";
             nascar.Engine = 7.3;
             nascar.FuzzyDice = true;
-            car.PrintData();
+            nascar.Speed = 200;
+            nascar.PrintData();
             nascar.Accelerate(50);
-            car.PrintData();
+            nascar.PrintData();
            
          
 
