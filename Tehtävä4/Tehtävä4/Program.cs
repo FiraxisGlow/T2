@@ -23,6 +23,15 @@ namespace Tehtävä4
         static void Main(string[] args)
         {
 
-        }
+            Vehicles car = new Vehicles();
+            car.Name = "Lada";
+            car.Speed = 80;
+            car.Tyres = 4;
+            car.PrintData();
+            Console.WriteLine(car.ToString());
+            Console.ReadLine();
+
+     
+    }
     }
 }
