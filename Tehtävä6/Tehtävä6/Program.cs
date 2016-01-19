@@ -2,6 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+/*
+* Copyright (C) Anton Kiri
+*
+*
+* Olio-ohjelmointi
+*
+*
+* 11.02.16
+* Anton Kiri
+*/
+
 using System.Threading.Tasks;
 
 namespace Teht6
@@ -46,13 +57,7 @@ namespace Teht6
               
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Vuoden päästä: ");
-            for (int y = 0; y < max; y++)
-            {
-                Console.WriteLine(cars[y].ToString());
-            }
-
+       
             Console.ReadLine();
         }
     }
