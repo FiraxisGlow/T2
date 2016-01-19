@@ -10,6 +10,33 @@ namespace CarApp1
     {
         static void Main(string[] args)
         {
+
+            //create one car instance
+            Car car = new Car();
+            //  Console.WriteLine("FuzzyDices = " + car.FuzzyDice);
+            // Console.WriteLine("Model = " + car.Model);
+            car.Model = "Lambo";
+            car.Color = "Red";
+            car.Engine = 15.6;
+            car.FuzzyDice = true;
+            car.Speed = 15;
+            car.PrintData();
+
+            Car nascar = new Car("Toyota");
+          //  Console.WriteLine("FuzzyDices = " + nascar.FuzzyDice);
+            //Console.WriteLine("Model = " + nascar.Model);
+            nascar.Speed = 200;
+            nascar.Color = "White";
+            nascar.Engine = 7.3;
+            nascar.FuzzyDice = true;
+            car.PrintData();
+            nascar.Accelerate(50);
+            car.PrintData();
+           
+         
+
+            Console.ReadLine();
+
         }
     }
 }
